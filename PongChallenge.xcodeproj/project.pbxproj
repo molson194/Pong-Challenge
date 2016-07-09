@@ -30,6 +30,8 @@
 		F073CBF51D30259C003D2B98 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073CBF41D30259C003D2B98 /* LoginViewController.swift */; };
 		F073CBF71D30263E003D2B98 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073CBF61D30263E003D2B98 /* VerificationViewController.swift */; };
 		F073CBF91D302DF0003D2B98 /* ChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073CBF81D302DF0003D2B98 /* ChallengesViewController.swift */; };
+		F073CBFD1D3070D3003D2B98 /* NewChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073CBFC1D3070D3003D2B98 /* NewChallengeViewController.swift */; };
+		F073CBFF1D308ED5003D2B98 /* AddPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073CBFE1D308ED5003D2B98 /* AddPlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +73,8 @@
 		F073CBF41D30259C003D2B98 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F073CBF61D30263E003D2B98 /* VerificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
 		F073CBF81D302DF0003D2B98 /* ChallengesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengesViewController.swift; sourceTree = "<group>"; };
+		F073CBFC1D3070D3003D2B98 /* NewChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChallengeViewController.swift; sourceTree = "<group>"; };
+		F073CBFE1D308ED5003D2B98 /* AddPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 				F073CBF41D30259C003D2B98 /* LoginViewController.swift */,
 				F073CBF61D30263E003D2B98 /* VerificationViewController.swift */,
 				F073CBF81D302DF0003D2B98 /* ChallengesViewController.swift */,
+				F073CBFC1D3070D3003D2B98 /* NewChallengeViewController.swift */,
+				F073CBFE1D308ED5003D2B98 /* AddPlayerViewController.swift */,
 			);
 			path = PongChallenge;
 			sourceTree = "<group>";
@@ -234,9 +240,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F073CBF71D30263E003D2B98 /* VerificationViewController.swift in Sources */,
+				F073CBFF1D308ED5003D2B98 /* AddPlayerViewController.swift in Sources */,
 				F073CBF51D30259C003D2B98 /* LoginViewController.swift in Sources */,
 				F073CBF91D302DF0003D2B98 /* ChallengesViewController.swift in Sources */,
 				F073CBB81D301140003D2B98 /* AppDelegate.swift in Sources */,
+				F073CBFD1D3070D3003D2B98 /* NewChallengeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
