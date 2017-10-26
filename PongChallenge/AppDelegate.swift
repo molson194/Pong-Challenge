@@ -19,8 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow()
         
         let parseConfiguration = ParseClientConfiguration { (ParseMutableClientConfiguration) in
-            ParseMutableClientConfiguration.applicationId = "molsonPONG1423"
-            ParseMutableClientConfiguration.clientKey = "kingDUKE1029"
+            ParseMutableClientConfiguration.applicationId = "APP_ID"
+            ParseMutableClientConfiguration.clientKey = "CLIENT_KEY"
             ParseMutableClientConfiguration.server = "https://pong-challenge.herokuapp.com/parse"
         }
         
